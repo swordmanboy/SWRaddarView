@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0C5D2A1F3A0E72009291B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D291F3A0E72009291B8 /* AppDelegate.swift */; };
+		FB0C5D2C1F3A0E72009291B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D2B1F3A0E72009291B8 /* ViewController.swift */; };
+		FB0C5D2F1F3A0E72009291B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D2D1F3A0E72009291B8 /* Main.storyboard */; };
+		FB0C5D311F3A0E72009291B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D301F3A0E72009291B8 /* Assets.xcassets */; };
+		FB0C5D341F3A0E72009291B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D321F3A0E72009291B8 /* LaunchScreen.storyboard */; };
+		FB0C5D3F1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D3E1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.swift */; };
+		FB0C5D4A1F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D491F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.swift */; };
+		FB0C5D5A1F3A0E97009291B8 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D591F3A0E97009291B8 /* Test2ViewController.m */; };
+		FB0C5D751F3A0EA8009291B8 /* ARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D5D1F3A0EA8009291B8 /* ARCoordinate.m */; };
+		FB0C5D761F3A0EA8009291B8 /* ARGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D5F1F3A0EA8009291B8 /* ARGeoCoordinate.m */; };
+		FB0C5D771F3A0EA8009291B8 /* ARKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D611F3A0EA8009291B8 /* ARKit.m */; };
+		FB0C5D781F3A0EA8009291B8 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D641F3A0EA8009291B8 /* ARViewController.m */; };
+		FB0C5D791F3A0EA8009291B8 /* AugmentedRealityController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D671F3A0EA8009291B8 /* AugmentedRealityController.m */; };
+		FB0C5D7A1F3A0EA8009291B8 /* GEOLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D691F3A0EA8009291B8 /* GEOLocations.m */; };
+		FB0C5D7B1F3A0EA8009291B8 /* bgCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D6B1F3A0EA8009291B8 /* bgCallout.png */; };
+		FB0C5D7C1F3A0EA8009291B8 /* bgCallout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D6C1F3A0EA8009291B8 /* bgCallout@2x.png */; };
+		FB0C5D7D1F3A0EA8009291B8 /* bgCalloutDisclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D6D1F3A0EA8009291B8 /* bgCalloutDisclosure.png */; };
+		FB0C5D7E1F3A0EA8009291B8 /* bgCalloutDisclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D6E1F3A0EA8009291B8 /* bgCalloutDisclosure@2x.png */; };
+		FB0C5D7F1F3A0EA8009291B8 /* MarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D701F3A0EA8009291B8 /* MarkerView.m */; };
+		FB0C5D801F3A0EA8009291B8 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D721F3A0EA8009291B8 /* Radar.m */; };
+		FB0C5D811F3A0EA8009291B8 /* RadarViewPortView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D741F3A0EA8009291B8 /* RadarViewPortView.m */; };
+		FB0C5D841F3A0F92009291B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0C5D821F3A0F92009291B8 /* MainViewController.swift */; };
+		FB0C5D851F3A0F92009291B8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0C5D831F3A0F92009291B8 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB0C5D3B1F3A0E72009291B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0C5D1E1F3A0E72009291B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0C5D251F3A0E72009291B8;
+			remoteInfo = RaderViewFromOtherProject;
+		};
+		FB0C5D461F3A0E72009291B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB0C5D1E1F3A0E72009291B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0C5D251F3A0E72009291B8;
+			remoteInfo = RaderViewFromOtherProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0C5D261F3A0E72009291B8 /* RaderViewFromOtherProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaderViewFromOtherProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0C5D291F3A0E72009291B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB0C5D2B1F3A0E72009291B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB0C5D2E1F3A0E72009291B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB0C5D301F3A0E72009291B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB0C5D331F3A0E72009291B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB0C5D351F3A0E72009291B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0C5D3A1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaderViewFromOtherProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0C5D3E1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaderViewFromOtherProjectTests.swift; sourceTree = "<group>"; };
+		FB0C5D401F3A0E72009291B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0C5D451F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaderViewFromOtherProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0C5D491F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaderViewFromOtherProjectUITests.swift; sourceTree = "<group>"; };
+		FB0C5D4B1F3A0E72009291B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0C5D571F3A0E97009291B8 /* RaderViewFromOtherProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaderViewFromOtherProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB0C5D581F3A0E97009291B8 /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		FB0C5D591F3A0E97009291B8 /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		FB0C5D5C1F3A0EA8009291B8 /* ARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoordinate.h; sourceTree = "<group>"; };
+		FB0C5D5D1F3A0EA8009291B8 /* ARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoordinate.m; sourceTree = "<group>"; };
+		FB0C5D5E1F3A0EA8009291B8 /* ARGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGeoCoordinate.h; sourceTree = "<group>"; };
+		FB0C5D5F1F3A0EA8009291B8 /* ARGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGeoCoordinate.m; sourceTree = "<group>"; };
+		FB0C5D601F3A0EA8009291B8 /* ARKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKit.h; sourceTree = "<group>"; };
+		FB0C5D611F3A0EA8009291B8 /* ARKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKit.m; sourceTree = "<group>"; };
+		FB0C5D621F3A0EA8009291B8 /* ARLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLocationDelegate.h; sourceTree = "<group>"; };
+		FB0C5D631F3A0EA8009291B8 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		FB0C5D641F3A0EA8009291B8 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		FB0C5D651F3A0EA8009291B8 /* ARViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewProtocol.h; sourceTree = "<group>"; };
+		FB0C5D661F3A0EA8009291B8 /* AugmentedRealityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugmentedRealityController.h; sourceTree = "<group>"; };
+		FB0C5D671F3A0EA8009291B8 /* AugmentedRealityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityController.m; sourceTree = "<group>"; };
+		FB0C5D681F3A0EA8009291B8 /* GEOLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocations.h; sourceTree = "<group>"; };
+		FB0C5D691F3A0EA8009291B8 /* GEOLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocations.m; sourceTree = "<group>"; };
+		FB0C5D6B1F3A0EA8009291B8 /* bgCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgCallout.png; sourceTree = "<group>"; };
+		FB0C5D6C1F3A0EA8009291B8 /* bgCallout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgCallout@2x.png"; sourceTree = "<group>"; };
+		FB0C5D6D1F3A0EA8009291B8 /* bgCalloutDisclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgCalloutDisclosure.png; sourceTree = "<group>"; };
+		FB0C5D6E1F3A0EA8009291B8 /* bgCalloutDisclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgCalloutDisclosure@2x.png"; sourceTree = "<group>"; };
+		FB0C5D6F1F3A0EA8009291B8 /* MarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerView.h; sourceTree = "<group>"; };
+		FB0C5D701F3A0EA8009291B8 /* MarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerView.m; sourceTree = "<group>"; };
+		FB0C5D711F3A0EA8009291B8 /* Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
+		FB0C5D721F3A0EA8009291B8 /* Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
+		FB0C5D731F3A0EA8009291B8 /* RadarViewPortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarViewPortView.h; sourceTree = "<group>"; };
+		FB0C5D741F3A0EA8009291B8 /* RadarViewPortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarViewPortView.m; sourceTree = "<group>"; };
+		FB0C5D821F3A0F92009291B8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB0C5D831F3A0F92009291B8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB0C5D231F3A0E72009291B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C5D371F3A0E72009291B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C5D421F3A0E72009291B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0C5D1D1F3A0E72009291B8 = {
+			isa = PBXGroup;
+			children = (
+				FB0C5D281F3A0E72009291B8 /* RaderViewFromOtherProject */,
+				FB0C5D3D1F3A0E72009291B8 /* RaderViewFromOtherProjectTests */,
+				FB0C5D481F3A0E72009291B8 /* RaderViewFromOtherProjectUITests */,
+				FB0C5D271F3A0E72009291B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB0C5D271F3A0E72009291B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C5D261F3A0E72009291B8 /* RaderViewFromOtherProject.app */,
+				FB0C5D3A1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.xctest */,
+				FB0C5D451F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0C5D281F3A0E72009291B8 /* RaderViewFromOtherProject */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C5D5B1F3A0EA8009291B8 /* ARKit */,
+				FB0C5D291F3A0E72009291B8 /* AppDelegate.swift */,
+				FB0C5D2B1F3A0E72009291B8 /* ViewController.swift */,
+				FB0C5D821F3A0F92009291B8 /* MainViewController.swift */,
+				FB0C5D831F3A0F92009291B8 /* MainViewController.xib */,
+				FB0C5D2D1F3A0E72009291B8 /* Main.storyboard */,
+				FB0C5D301F3A0E72009291B8 /* Assets.xcassets */,
+				FB0C5D321F3A0E72009291B8 /* LaunchScreen.storyboard */,
+				FB0C5D351F3A0E72009291B8 /* Info.plist */,
+				FB0C5D581F3A0E97009291B8 /* Test2ViewController.h */,
+				FB0C5D591F3A0E97009291B8 /* Test2ViewController.m */,
+				FB0C5D571F3A0E97009291B8 /* RaderViewFromOtherProject-Bridging-Header.h */,
+			);
+			path = RaderViewFromOtherProject;
+			sourceTree = "<group>";
+		};
+		FB0C5D3D1F3A0E72009291B8 /* RaderViewFromOtherProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C5D3E1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.swift */,
+				FB0C5D401F3A0E72009291B8 /* Info.plist */,
+			);
+			path = RaderViewFromOtherProjectTests;
+			sourceTree = "<group>";
+		};
+		FB0C5D481F3A0E72009291B8 /* RaderViewFromOtherProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C5D491F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.swift */,
+				FB0C5D4B1F3A0E72009291B8 /* Info.plist */,
+			);
+			path = RaderViewFromOtherProjectUITests;
+			sourceTree = "<group>";
+		};
+		FB0C5D5B1F3A0EA8009291B8 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C5D5C1F3A0EA8009291B8 /* ARCoordinate.h */,
+				FB0C5D5D1F3A0EA8009291B8 /* ARCoordinate.m */,
+				FB0C5D5E1F3A0EA8009291B8 /* ARGeoCoordinate.h */,
+				FB0C5D5F1F3A0EA8009291B8 /* ARGeoCoordinate.m */,
+				FB0C5D601F3A0EA8009291B8 /* ARKit.h */,
+				FB0C5D611F3A0EA8009291B8 /* ARKit.m */,
+				FB0C5D621F3A0EA8009291B8 /* ARLocationDelegate.h */,
+				FB0C5D631F3A0EA8009291B8 /* ARViewController.h */,
+				FB0C5D641F3A0EA8009291B8 /* ARViewController.m */,
+				FB0C5D651F3A0EA8009291B8 /* ARViewProtocol.h */,
+				FB0C5D661F3A0EA8009291B8 /* AugmentedRealityController.h */,
+				FB0C5D671F3A0EA8009291B8 /* AugmentedRealityController.m */,
+				FB0C5D681F3A0EA8009291B8 /* GEOLocations.h */,
+				FB0C5D691F3A0EA8009291B8 /* GEOLocations.m */,
+				FB0C5D6A1F3A0EA8009291B8 /* Images */,
+				FB0C5D6F1F3A0EA8009291B8 /* MarkerView.h */,
+				FB0C5D701F3A0EA8009291B8 /* MarkerView.m */,
+				FB0C5D711F3A0EA8009291B8 /* Radar.h */,
+				FB0C5D721F3A0EA8009291B8 /* Radar.m */,
+				FB0C5D731F3A0EA8009291B8 /* RadarViewPortView.h */,
+				FB0C5D741F3A0EA8009291B8 /* RadarViewPortView.m */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		FB0C5D6A1F3A0EA8009291B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FB0C5D6B1F3A0EA8009291B8 /* bgCallout.png */,
+				FB0C5D6C1F3A0EA8009291B8 /* bgCallout@2x.png */,
+				FB0C5D6D1F3A0EA8009291B8 /* bgCalloutDisclosure.png */,
+				FB0C5D6E1F3A0EA8009291B8 /* bgCalloutDisclosure@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0C5D251F3A0E72009291B8 /* RaderViewFromOtherProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0C5D4E1F3A0E72009291B8 /* Build configuration list for PBXNativeTarget "RaderViewFromOtherProject" */;
+			buildPhases = (
+				FB0C5D221F3A0E72009291B8 /* Sources */,
+				FB0C5D231F3A0E72009291B8 /* Frameworks */,
+				FB0C5D241F3A0E72009291B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaderViewFromOtherProject;
+			productName = RaderViewFromOtherProject;
+			productReference = FB0C5D261F3A0E72009291B8 /* RaderViewFromOtherProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB0C5D391F3A0E72009291B8 /* RaderViewFromOtherProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0C5D511F3A0E72009291B8 /* Build configuration list for PBXNativeTarget "RaderViewFromOtherProjectTests" */;
+			buildPhases = (
+				FB0C5D361F3A0E72009291B8 /* Sources */,
+				FB0C5D371F3A0E72009291B8 /* Frameworks */,
+				FB0C5D381F3A0E72009291B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0C5D3C1F3A0E72009291B8 /* PBXTargetDependency */,
+			);
+			name = RaderViewFromOtherProjectTests;
+			productName = RaderViewFromOtherProjectTests;
+			productReference = FB0C5D3A1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB0C5D441F3A0E72009291B8 /* RaderViewFromOtherProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB0C5D541F3A0E72009291B8 /* Build configuration list for PBXNativeTarget "RaderViewFromOtherProjectUITests" */;
+			buildPhases = (
+				FB0C5D411F3A0E72009291B8 /* Sources */,
+				FB0C5D421F3A0E72009291B8 /* Frameworks */,
+				FB0C5D431F3A0E72009291B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0C5D471F3A0E72009291B8 /* PBXTargetDependency */,
+			);
+			name = RaderViewFromOtherProjectUITests;
+			productName = RaderViewFromOtherProjectUITests;
+			productReference = FB0C5D451F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0C5D1E1F3A0E72009291B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Apinun Wongintawang";
+				TargetAttributes = {
+					FB0C5D251F3A0E72009291B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L52U2QMKSA;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					FB0C5D391F3A0E72009291B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB0C5D251F3A0E72009291B8;
+					};
+					FB0C5D441F3A0E72009291B8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB0C5D251F3A0E72009291B8;
+					};
+				};
+			};
+			buildConfigurationList = FB0C5D211F3A0E72009291B8 /* Build configuration list for PBXProject "RaderViewFromOtherProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB0C5D1D1F3A0E72009291B8;
+			productRefGroup = FB0C5D271F3A0E72009291B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB0C5D251F3A0E72009291B8 /* RaderViewFromOtherProject */,
+				FB0C5D391F3A0E72009291B8 /* RaderViewFromOtherProjectTests */,
+				FB0C5D441F3A0E72009291B8 /* RaderViewFromOtherProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB0C5D241F3A0E72009291B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C5D7D1F3A0EA8009291B8 /* bgCalloutDisclosure.png in Resources */,
+				FB0C5D341F3A0E72009291B8 /* LaunchScreen.storyboard in Resources */,
+				FB0C5D7B1F3A0EA8009291B8 /* bgCallout.png in Resources */,
+				FB0C5D851F3A0F92009291B8 /* MainViewController.xib in Resources */,
+				FB0C5D7E1F3A0EA8009291B8 /* bgCalloutDisclosure@2x.png in Resources */,
+				FB0C5D311F3A0E72009291B8 /* Assets.xcassets in Resources */,
+				FB0C5D7C1F3A0EA8009291B8 /* bgCallout@2x.png in Resources */,
+				FB0C5D2F1F3A0E72009291B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C5D381F3A0E72009291B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C5D431F3A0E72009291B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB0C5D221F3A0E72009291B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C5D801F3A0EA8009291B8 /* Radar.m in Sources */,
+				FB0C5D841F3A0F92009291B8 /* MainViewController.swift in Sources */,
+				FB0C5D7F1F3A0EA8009291B8 /* MarkerView.m in Sources */,
+				FB0C5D751F3A0EA8009291B8 /* ARCoordinate.m in Sources */,
+				FB0C5D5A1F3A0E97009291B8 /* Test2ViewController.m in Sources */,
+				FB0C5D2C1F3A0E72009291B8 /* ViewController.swift in Sources */,
+				FB0C5D771F3A0EA8009291B8 /* ARKit.m in Sources */,
+				FB0C5D2A1F3A0E72009291B8 /* AppDelegate.swift in Sources */,
+				FB0C5D781F3A0EA8009291B8 /* ARViewController.m in Sources */,
+				FB0C5D7A1F3A0EA8009291B8 /* GEOLocations.m in Sources */,
+				FB0C5D761F3A0EA8009291B8 /* ARGeoCoordinate.m in Sources */,
+				FB0C5D791F3A0EA8009291B8 /* AugmentedRealityController.m in Sources */,
+				FB0C5D811F3A0EA8009291B8 /* RadarViewPortView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C5D361F3A0E72009291B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C5D3F1F3A0E72009291B8 /* RaderViewFromOtherProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0C5D411F3A0E72009291B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0C5D4A1F3A0E72009291B8 /* RaderViewFromOtherProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB0C5D3C1F3A0E72009291B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0C5D251F3A0E72009291B8 /* RaderViewFromOtherProject */;
+			targetProxy = FB0C5D3B1F3A0E72009291B8 /* PBXContainerItemProxy */;
+		};
+		FB0C5D471F3A0E72009291B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0C5D251F3A0E72009291B8 /* RaderViewFromOtherProject */;
+			targetProxy = FB0C5D461F3A0E72009291B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB0C5D2D1F3A0E72009291B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0C5D2E1F3A0E72009291B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB0C5D321F3A0E72009291B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB0C5D331F3A0E72009291B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB0C5D4C1F3A0E72009291B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB0C5D4D1F3A0E72009291B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB0C5D4F1F3A0E72009291B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = RaderViewFromOtherProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.company.RaderViewFromOtherProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RaderViewFromOtherProject/RaderViewFromOtherProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB0C5D501F3A0E72009291B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = RaderViewFromOtherProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.company.RaderViewFromOtherProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RaderViewFromOtherProject/RaderViewFromOtherProject-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB0C5D521F3A0E72009291B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaderViewFromOtherProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.company.RaderViewFromOtherProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaderViewFromOtherProject.app/RaderViewFromOtherProject";
+			};
+			name = Debug;
+		};
+		FB0C5D531F3A0E72009291B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaderViewFromOtherProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.company.RaderViewFromOtherProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaderViewFromOtherProject.app/RaderViewFromOtherProject";
+			};
+			name = Release;
+		};
+		FB0C5D551F3A0E72009291B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RaderViewFromOtherProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.company.RaderViewFromOtherProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RaderViewFromOtherProject;
+			};
+			name = Debug;
+		};
+		FB0C5D561F3A0E72009291B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RaderViewFromOtherProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.company.RaderViewFromOtherProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RaderViewFromOtherProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB0C5D211F3A0E72009291B8 /* Build configuration list for PBXProject "RaderViewFromOtherProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C5D4C1F3A0E72009291B8 /* Debug */,
+				FB0C5D4D1F3A0E72009291B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB0C5D4E1F3A0E72009291B8 /* Build configuration list for PBXNativeTarget "RaderViewFromOtherProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C5D4F1F3A0E72009291B8 /* Debug */,
+				FB0C5D501F3A0E72009291B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0C5D511F3A0E72009291B8 /* Build configuration list for PBXNativeTarget "RaderViewFromOtherProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C5D521F3A0E72009291B8 /* Debug */,
+				FB0C5D531F3A0E72009291B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB0C5D541F3A0E72009291B8 /* Build configuration list for PBXNativeTarget "RaderViewFromOtherProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0C5D551F3A0E72009291B8 /* Debug */,
+				FB0C5D561F3A0E72009291B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0C5D1E1F3A0E72009291B8 /* Project object */;
+}
